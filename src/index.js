@@ -1,8 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from "react"
+import ReactDOM from "react-dom"
+import App from "./App"
 
-function Greeting() {
-  return <h1>This is my greeting</h1>
-}
-
-ReactDOM.render(<Greeting />, document.getElementById("root"))
+ReactDOM.render(
+<React.StrictMode>
+  <App />
+</React.StrictMode>, document.getElementById("root"))
